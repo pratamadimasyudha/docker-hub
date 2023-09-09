@@ -17,4 +17,4 @@ RUN echo -e "https://dl-cdn.alpinelinux.org/alpine/v$(cut -d'.' -f1,2 /etc/alpin
 RUN apk update && \
     apk add --no-cache tini=0.19.0-r1 \
                        bind-tools=9.18.16-r0 \
-                       go=1.20.7-r0
+                       go=1.21.1-r0
