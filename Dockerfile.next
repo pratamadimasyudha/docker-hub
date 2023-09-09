@@ -19,4 +19,5 @@ RUN apk update && \
                        bind-tools=9.18.16-r0 \
                        nodejs=18.17.1-r0 \
                        npm=9.6.6-r0 \
+                       yarn=1.22.19-r0 \
                        pnpm=8.7.1-r0
